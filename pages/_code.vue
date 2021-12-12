@@ -96,9 +96,9 @@ export default Vue.extend({
 
     const user = data.user;
     const products = data.products;
-    let quantities = [];
+    let quantities: any[] = [];
 
-    products.forEach(p => {
+    products.forEach((p: any) => {
       quantities[p.id] = 0;
     });
 
@@ -133,21 +133,17 @@ export default Vue.extend({
         city: this.city,
         zip: this.zip,
         code: this.$route.params.code,
-        products: this.products.map(p => ({
+        products: this.products.map((p: any) => ({
           product_id: p.id,
           quantity: this.quantities[p.id]
         }))
       })
-
-      console.log(data);
-    }
-  },
-  computed: {
+    },
     total() {
-      return this.products.reduce((s, p) => {
+      return this.products.reduce((s: number, p: any) => {
         return s + p.price * this.quantities[p.id];
       }, 0);
-    }
+    },
   }
 })
 </script>

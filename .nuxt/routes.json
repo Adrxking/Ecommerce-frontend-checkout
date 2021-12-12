@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Error",
+    "path": "/Error",
+    "component": "D:\\\\Adrian\\\\Developer\\\\DockerLocal\\\\Personal\\\\ecommerce\\\\app\\\\frontend\\\\checkout\\\\pages\\\\Error.vue",
+    "chunkName": "pages/Error",
+    "_name": "_558448ee"
+  },
+  {
+    "name": "Success",
+    "path": "/Success",
+    "component": "D:\\\\Adrian\\\\Developer\\\\DockerLocal\\\\Personal\\\\ecommerce\\\\app\\\\frontend\\\\checkout\\\\pages\\\\Success.vue",
+    "chunkName": "pages/Success",
+    "_name": "_94748478"
+  },
+  {
+    "name": "code",
+    "path": "/:code?",
+    "component": "D:\\\\Adrian\\\\Developer\\\\DockerLocal\\\\Personal\\\\ecommerce\\\\app\\\\frontend\\\\checkout\\\\pages\\\\_code.vue",
+    "chunkName": "pages/_code",
+    "_name": "_1bd04e6d"
+  }
+]
